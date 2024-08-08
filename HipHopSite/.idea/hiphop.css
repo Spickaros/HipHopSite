@@ -1,0 +1,51 @@
+body {
+  background-image: url('https://wallpapercave.com/wp/wp2725720.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+  border: 1px solid black;
+  backround-color: black;
+  width: 900px;
+  margin: 20px auto;
+  padding: 0 7px;
+
+}
+
+    @font-face{
+    font-family:gothic;
+    src:url(OldLondon.ttf)
+    }
+     @font-face{
+    font-family:juraGR;
+    src:url(Jura-Medium.otf)
+    }
+       h1{
+color:#FFFFFF;
+margin: 50px auto 0 auto;
+font-family: 'Sacramento',gothic;
+font-size: 90px;
+line-height: 2;
+}
+h2 {
+color:#FFFFFF;
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+font-weight: normal;
+}
+h3 {
+color:#FFFFFF;
+font-family: 'Montserrat',juraGR;
+}
+h4{
+color:#FFFFFF;
+color:#FFFFFF;
+font-family:juraGR
+}
+
+#hp  {
+float: right;
+ margin: 0 0 0 15px;
+}
+
+

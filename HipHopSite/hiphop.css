@@ -1,0 +1,260 @@
+body {
+  background-image: url("hiphop-elements.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+
+.my-border{
+border: 1px solid black;
+  background: rgba(105,105,105,0.8);
+  width: 900px;
+  margin: 20px auto;
+  padding: 0 7px;
+  border-radius:15px;
+
+}
+
+    @font-face{
+    font-family:gothic;
+    src:url(OldLondon.ttf)
+    }
+     @font-face{
+    font-family:juraGR;
+    src:url(Jura-Medium.otf)
+    }
+    li{
+    color:white;
+    }
+       h1{
+color:#FFFFFF;
+margin: 50px auto 0 auto;
+font-family: 'Sacramento',gothic;
+font-size: 90px;
+line-height: 2;
+}
+h2 {
+background-color: rgba(0, 0, 0, 0.6);
+color:#FFFFFF;
+font-family: 'Montserrat', juraGR;
+font-size: 2rem;
+font-weight: normal;
+margin: 20px auto;
+padding: 0 7px;
+}
+h3 {
+color:#FFFFFF;
+font-family: 'Montserrat',juraGR;
+}
+h4{
+color:#FFFFFF;
+color:#FFFFFF;
+font-family:juraGR
+}
+
+
+img {
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+   text-align: center
+
+}
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+
+
+#hp  {
+float: right;
+ margin: 0 0 0 15px;
+}
+label{
+text-align:center;
+}
+textarea{
+  background-color: rgba(128,128,128);
+    border: 1px solid #0000;
+      border-radius:15px;
+    color: black;
+    display: block;
+       margin-left: auto;
+       margin-right: auto;
+  width: 50%;
+  min-height: 2em;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 23px;
+  height: 24px;
+  border: 0;
+  background: url('contrasticon.png');
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 23px;
+  height: 25px;
+  border: 0;
+  background: url('contrasticon.png');
+  cursor: pointer;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:rgb(47,79,79);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: grey;
+  color: white;
+  font-family:juraGR;
+}
+
+.topnav .icon {
+  display: none;
+
+}
+topnav{
+    border-top: 1px solid #fdb347;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size:23px;
+    background-color:black;
+    }
+
+
+ .logo-image{
+ width: 46px;
+ height: 46px;
+ border-radius: 50%;
+ overflow: hidden;
+ margin-top: -6px;
+}
+input[type="submit"] {
+  display: block;
+  width: 10%;
+  min-width:300px;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  color:white;
+  background-color: rgba(128,128,128);
+  border-color:white;
+  border-radius:15px;
+}
+a:link {
+  color: white;
+
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+
+  text-decoration: underline;
+}
